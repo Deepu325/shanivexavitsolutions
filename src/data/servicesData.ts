@@ -1,0 +1,113 @@
+import { ServiceItem } from '../types.ts';
+import { ASSET_IMAGES } from '../assets/images.ts';
+
+export const SERVICES_DATA: ServiceItem[] = [
+  {
+    id: 'touch-interactive-panels',
+    title: 'Touch Interactive Panels',
+    subtitle: 'Next-Generation Interactive Digital Boards & Collaboration',
+    description: 'Transform education and corporate presentations with ultra-responsive 4K multi-touch displays designed for real-time collaboration, digital annotation, and effortless wireless content sharing.',
+    image: ASSET_IMAGES.touchPanel,
+    capabilities: [
+      'Digital Boards',
+      'Interactive Displays',
+      'Smart Classrooms',
+      'Meeting Rooms',
+    ],
+    features: [
+      'Ultra HD 4K anti-glare toughened glass surface',
+      'High-precision 20-point multi-touch writing capability',
+      'Dual OS compatibility with Android and Windows OPS support',
+      'Wireless screen projection from laptops, tablets, and phones',
+      'Built-in digital whiteboard tools and multi-subject annotation',
+    ],
+    useCases: [
+      'Interactive smart classrooms and lecture halls',
+      'Corporate executive boardrooms and strategy rooms',
+      'Training centers and vocational institutes',
+      'Hybrid meeting and creative brainstorming hubs',
+    ],
+  },
+  {
+    id: 'kiosks',
+    title: 'Interactive Kiosks',
+    subtitle: 'Self-Service, Information, and Queue Management Systems',
+    description: 'Engage visitors and streamline public interactions with sleek, heavy-duty floor-standing and wall-mounted digital touch kiosks tailored for commercial footfall and rapid user self-service.',
+    image: ASSET_IMAGES.kiosk,
+    capabilities: [
+      'Information Kiosks',
+      'Self-Service Kiosks',
+      'Queue Management',
+      'Custom Kiosks',
+    ],
+    features: [
+      'Industrial-grade touchscreens with 24/7 continuous operation',
+      'Custom metal and tempered glass enclosure fabrication',
+      'Integrated barcode scanners, thermal printers, and card readers',
+      'Interactive wayfinding and campus directory software',
+      'Token generation and automated customer queue management',
+    ],
+    useCases: [
+      'Hospitality lobbies, hotel check-ins, and concierge desks',
+      'Hospital and clinic patient registration and token ticketing',
+      'University campuses and corporate reception wayfinding',
+      'Retail stores and exhibition event attendee directories',
+    ],
+  },
+  {
+    id: 'av-products',
+    title: 'Commercial AV Products',
+    subtitle: 'LED Video Walls, Audio Systems, and Video Conferencing',
+    description: 'Complete audiovisual system integration covering fine-pitch LED video walls, high-lumen laser projection, distributed commercial audio, and enterprise-grade video conferencing.',
+    image: ASSET_IMAGES.ledVideoWall,
+    capabilities: [
+      'LED Video Walls',
+      'Projectors & Screens',
+      'Audio Systems',
+      'Video Conferencing',
+      'Signal Management',
+      'Mounts & Accessories',
+    ],
+    features: [
+      'Ultra-fine pitch indoor and outdoor seamless LED video displays',
+      'High-lumen laser projectors and ambient light rejecting (ALR) screens',
+      'Beamforming ceiling microphones and digital sound processor (DSP) tuning',
+      'AI auto-framing PTZ conferencing cameras and unified communication bars',
+      'Matrix switchers, 4K HDMI/HDBaseT extenders, and motorized mounts',
+    ],
+    useCases: [
+      'Auditoriums, seminar halls, and large convention stages',
+      'Command and control centers, NOC rooms, and surveillance hubs',
+      'Corporate telepresence boardrooms and hybrid huddle spaces',
+      'Commercial retail facades and experiential digital walls',
+    ],
+  },
+  {
+    id: 'website-software-development',
+    title: 'Website & Software Development',
+    subtitle: 'Custom Web Applications, Cloud Infrastructure & Digital Support',
+    description: 'Bridge physical audiovisual environments with high-performing digital systems through custom web engineering, responsive corporate portals, cloud hosting, and continuous website management.',
+    image: ASSET_IMAGES.heroBoardroom,
+    capabilities: [
+      'Website Development',
+      'Web Applications',
+      'Software Solutions',
+      'Cloud & Hosting',
+      'Website Management',
+      'Digital Support',
+    ],
+    features: [
+      'Modern responsive website engineering optimized for speed and SEO',
+      'Custom enterprise web application and management dashboard development',
+      'Secure cloud infrastructure setup, domain management, and SSL hosting',
+      'Content management system (CMS) deployment and routine maintenance',
+      'Dedicated technical support and performance monitoring',
+    ],
+    useCases: [
+      'Institutions needing unified digital portals alongside physical AV tech',
+      'Corporate enterprises seeking bespoke workflow automation software',
+      'E-commerce, booking platforms, and institutional event registration',
+      'Organizations requiring dependable ongoing website maintenance',
+    ],
+  },
+];
