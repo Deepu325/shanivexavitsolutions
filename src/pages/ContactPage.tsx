@@ -1,6 +1,7 @@
 import React from 'react';
 import { 
   Phone, 
+  Mail,
   MapPin, 
   MessageSquare, 
   Clock, 
@@ -80,6 +81,24 @@ export const ContactPage: React.FC = () => {
                   <p className="text-xs text-[#B9C9DA]">
                     Monday – Saturday: 9:00 AM – 7:00 PM IST
                   </p>
+                </div>
+              </div>
+
+              {/* Email */}
+              <div className="flex items-start gap-4 pt-4 border-t border-white/10">
+                <div className="p-3 rounded-lg bg-[#061F3D] text-[#00D4FF] shrink-0 mt-0.5 border border-[#00D4FF]/20">
+                  <Mail className="w-5 h-5" />
+                </div>
+                <div className="space-y-1">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-[#00D4FF] block">
+                    Email
+                  </span>
+                  <a
+                    href={`mailto:${COMPANY_INFO.email}`}
+                    className="text-sm font-medium text-white hover:text-[#00D4FF] transition-colors break-all"
+                  >
+                    {COMPANY_INFO.email}
+                  </a>
                 </div>
               </div>
 

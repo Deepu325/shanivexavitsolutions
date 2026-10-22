@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, MapPin, MessageSquare, ArrowUpRight } from 'lucide-react';
+import { Phone, MapPin, MessageSquare, ArrowUpRight, Mail } from 'lucide-react';
 import { COMPANY_INFO } from '../data/companyData.ts';
 import { getGeneralWhatsAppUrl } from '../utils/whatsapp.ts';
 
@@ -116,6 +116,16 @@ export const Footer: React.FC = () => {
                 className="hover:text-white transition-colors font-mono tabular-nums"
               >
                 {COMPANY_INFO.phoneDisplay}
+              </a>
+            </div>
+
+            <div className="flex items-center gap-3 text-sm">
+              <Mail className="w-5 h-5 text-[#00D4FF] shrink-0" />
+              <a
+                href={`mailto:${COMPANY_INFO.email}`}
+                className="hover:text-white transition-colors break-all"
+              >
+                {COMPANY_INFO.email}
               </a>
             </div>
 

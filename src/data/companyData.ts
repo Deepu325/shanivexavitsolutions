@@ -7,6 +7,7 @@ export const COMPANY_INFO = {
   location: 'Bharamasagar, Chitradurga District, Karnataka, India',
   phoneDisplay: '+91 91642 62446',
   phoneRaw: '+919164262446',
+  email: 'shanivexavitsolutions@gmail.com',
   whatsappRaw: '919164262446',
   panIndia: 'Pan-India Delivery & Installation Support',
 };
